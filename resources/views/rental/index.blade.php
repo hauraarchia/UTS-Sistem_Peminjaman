@@ -106,7 +106,7 @@ data-keyboard="false" data-width="75%" aria-hidden="true"></div>
                     date:true
                 },
                 {
-                    data: "tgl_pinjam",
+                    data: "tgl_kembali",
                     orderable: true,
                     searchable: true,
                     date:true

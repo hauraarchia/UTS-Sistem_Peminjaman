@@ -51,13 +51,13 @@
                 </div> 
                 <div class="form-group"> 
                     <label>Tanggal Pinjam</label> 
-                    <input value="{{ $rental->tgl_pinjam }}" type="text" name="tgl_pinjam" id="tgl_pinjam" 
+                    <input value="{{ $rental->tgl_pinjam }}" type="date" name="tgl_pinjam" id="tgl_pinjam" 
                     class="form-control" required> 
                     <small id="error-tgl_pinjam" class="error-text form-text text-danger"></small> 
                 </div> 
                 <div class="form-group"> 
                     <label>Tanggal Kembali</label> 
-                    <input value="{{ $rental->tgl_kembali }}" type="text" name="tgl_kembali" id="tgl_kembali" 
+                    <input value="{{ $rental->tgl_kembali }}" type="date" name="tgl_kembali" id="tgl_kembali" 
                     class="form-control" required> 
                     <small id="error-tgl_kembali" class="error-text form-text text-danger"></small> 
                 </div> 
